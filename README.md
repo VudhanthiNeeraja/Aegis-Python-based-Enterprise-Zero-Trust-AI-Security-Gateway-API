@@ -14,9 +14,8 @@ LLM03: Excessive Agency: Mitigated via a Dual-Agent Sandbox. A highly restricted
 ## Running the Streamlit Dashboard
 Ensure your FastAPI app is running in one terminal:
 
-Bash
 uvicorn main:app --reload
+
 In a second terminal, launch Streamlit:
 
-Bash
 streamlit run dashboard.py
